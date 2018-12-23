@@ -1,0 +1,36 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc index.ts --watch",
+    "compile:test": "tsc rx.test.ts --watch",
+    "test": "mocha rx.test.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "*",
+    "chalk": "*",
+    "express": "*",
+    "nodemon": "^1.18.9",
+    "rx": "*",
+    "rx-collectionassert": "^1.0.0",
+    "rxjs": "*",
+    "rxjs-compat": "^6.3.3",
+    "rxjs-operators": "*",
+    "rxjs-stream": "^3.0.1",
+    "xmlhttprequest": "^1.8.0",
+    "rxjs-test": "*"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/rx": "^4.1.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
